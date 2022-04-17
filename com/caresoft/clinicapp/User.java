@@ -1,0 +1,40 @@
+package com.caresoft.clinicapp;
+
+public class User {
+	protected Integer id;
+    protected int pin;
+    
+///=================================================================================
+// here it is my constructor that takes an ID
+///=================================================================================
+	public User(Integer id) {
+		super();
+		this.id = id;
+	}
+
+ ///=================================================================================
+	/////here is getters and setters
+////=====================================================================================
+	public Integer getId() {
+		return id;
+	}
+
+
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
+
+
+	public int getPin() {
+		return pin;
+	}
+
+
+
+	public void setPin(int pin) {
+		this.pin = pin;
+	}
+    
+}
